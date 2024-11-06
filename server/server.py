@@ -4,7 +4,7 @@ import sys, threading, socket, getpass
 from siftprotocols.siftmtp import SiFT_MTP, SiFT_MTP_Error
 from siftprotocols.siftlogin import SiFT_LOGIN, SiFT_LOGIN_Error
 from siftprotocols.siftcmd import SiFT_CMD, SiFT_CMD_Error
-#test 2
+
 class Server:
     def __init__(self):
         # ------------------------ CONFIG -----------------------------
